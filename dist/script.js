@@ -1,0 +1,2 @@
+"use strict";document.addEventListener("DOMContentLoaded",(function(){new Splide("#card-slider",{perPage:2,type:"loop",breakpoints:{600:{perPage:1}},pagination:!1,arrows:!1}).mount()}));
+//# sourceMappingURL=script.js.map

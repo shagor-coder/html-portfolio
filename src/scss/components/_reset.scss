@@ -1,0 +1,21 @@
+// RESETTING BOOTSTRAP COMPONENTS & COLORS
+
+
+.bg-primary{
+    background-color: $primary !important;
+}
+.text-primary{
+    color: $primary !important;
+}
+.text-secondary{
+    color: $secondary !important;
+}
+.bg-primary{
+    background-color: $primary !important;
+}
+.border-primary{
+    border-color: $primary !important;
+}
+body{
+    line-height: 1.15 !important;
+}

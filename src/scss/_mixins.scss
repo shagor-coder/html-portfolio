@@ -1,0 +1,9 @@
+@mixin font600{
+    font-weight: 600;
+}
+
+@mixin  hoverEffects() {
+    background: $primary !important;
+    color: $secondary !important;
+    transition: all 0.3s ease-in-out;
+}

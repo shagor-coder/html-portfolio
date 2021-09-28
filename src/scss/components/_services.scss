@@ -1,0 +1,32 @@
+.services{
+
+    .card{
+        border-radius: 0;
+        border-top-right-radius: 1.5rem;
+        box-shadow: 0 0 4px $secondary;
+
+        &:hover{
+            @include hoverEffects;
+
+            i{
+                background: $secondary !important;
+                color: $primary;
+            }
+        }
+        
+
+        .card-header{
+            margin-top: -2.5rem;
+            border: none;
+        }
+
+        i{
+            border-radius: 0.5rem;
+            box-shadow: 0 0 5px $secondary;
+        }
+
+        @media (max-width: 768px){
+            margin-bottom: 3rem;
+        }
+    }
+}

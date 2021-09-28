@@ -1,0 +1,23 @@
+.skill{
+
+
+    .after{
+        position: relative;
+
+        &::after{
+            position: absolute;
+            top: 0;
+            right: 0;
+            content: attr(name)"";
+        }
+    }
+
+    .progress{
+        background: none !important;
+
+        .progress-bar{
+            background: $primary;
+        }
+    }
+
+}
