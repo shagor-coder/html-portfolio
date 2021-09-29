@@ -1,7 +1,17 @@
 .testimonial{
 
-    .d-block{
-        width: 10rem;
-        height: 10rem;
+    background: hsl(251, 96%, 10%);
+
+    .img-fluid{
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
     }
+
+    .text-sm-center{
+        @media (max-width: 768px){
+            text-align: center !important;
+        }
+    }
+    
 }

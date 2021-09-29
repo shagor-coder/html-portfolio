@@ -16,6 +16,20 @@
 .border-primary{
     border-color: $primary !important;
 }
+.btn-primary{
+    border-color: $primary !important;
+}
+*{
+    box-sizing: border-box;
+}
 body{
     line-height: 1.15 !important;
+}
+a{
+    text-decoration: none;
+    color: inherit !important;
+}
+
+.portfolio-grid{
+    @include portfolioGrid;
 }

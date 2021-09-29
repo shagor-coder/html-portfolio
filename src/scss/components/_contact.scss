@@ -1,0 +1,42 @@
+.contact{
+    .form-control{
+        border-radius: 0 !important;
+        font-size: 0.875rem;
+        @include font600;
+        background: transparent;
+        color: #fff;
+        border: 0.05rem solid $secondary;
+    }
+
+    .btn-lg{
+        &:hover{
+            @include hoverEffect;
+        }
+    }
+
+    .address-line{
+
+        @media (max-width: 500px){
+            text-align: center;
+
+            .d-flex{
+                text-align: left;
+                align-items: flex-start;
+                justify-content: center;
+            }
+        }
+
+        .me-2{
+            width: 2.5rem;
+            height: 2.5rem;
+            display: grid !important;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background: $primary;
+        }
+        .fa{
+            font-size: 1.5rem;
+        }
+    }
+}
