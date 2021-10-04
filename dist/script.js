@@ -1,2 +1,2 @@
-"use strict";document.addEventListener("DOMContentLoaded",(function(){new Splide("#card-slider",{perPage:2,type:"loop",breakpoints:{600:{perPage:1}},pagination:!1,arrows:!1}).mount()}));
+"use strict";var swiper=new Swiper(".mySwiper",{loop:!0,centeredSlides:!1,autoplay:{delay:5e3,disableOnInteraction:!1},breakpoints:{0:{slidesPerView:1},768:{slidesPerView:2},1024:{slidesPerView:2}}});
 //# sourceMappingURL=script.js.map

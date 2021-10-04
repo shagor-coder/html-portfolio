@@ -9,7 +9,9 @@
     }
 
     .text-sm-center{
-        @media (max-width: 768px){
+        text-align: left !important;
+        
+        @media (max-width:768px){
             text-align: center !important;
         }
     }
