@@ -24,12 +24,40 @@
 }
 body{
     line-height: 1.15 !important;
+    font-family: "Roboto Mono", monospace;
 }
 a{
     text-decoration: none;
     color: inherit !important;
 }
-
+.border-start{
+    border-left: 0.4rem solid $primary !important;
+}
 .portfolio-grid{
     @include portfolioGrid;
+}
+.img-fluid{
+    aspect-ratio: 4/4.5 !important;
+}
+
+.hoverPrimary{
+    &:hover{
+        @include hoverEffects();
+        background: none !important;
+        color: $primary !important;
+    }
+}
+.hoverSecondary{
+    &:hover{
+        @include hoverEffect();
+    }
+}
+.d-sm-none{
+    @media (max-width: 768px){
+        display: none;
+    }
+}
+
+.fs-5,.fs-6{
+    font-size: clamp(1rem + 0.5vh);
 }

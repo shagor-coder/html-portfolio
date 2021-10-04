@@ -9,12 +9,16 @@
 }
 @mixin  hoverEffect() {
     background: $secondary !important;
-    color: $primary!important;
+    color: $primary !important;
     transition: all 0.3s ease-in-out;
 }
 
 @mixin portfolioGrid {
     display: grid;
-    grid-gap: 0.3rem;
-    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    grid-gap: 0.6rem;
+    grid-template-columns: repeat( auto-fit, minmax(20rem, 1fr) );
+
+    @media (max-width: 400px){
+        grid-template-columns: repeat( auto-fit, minmax(18rem, 1fr) );
+    }
 }

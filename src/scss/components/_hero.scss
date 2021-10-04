@@ -1,5 +1,10 @@
 .hero{
+    z-index: 10;
 
+    .rounded-pill{
+        z-index: 100;
+        position: relative;
+    }
     .fa,.fas,.fad{
         font-size: 5rem;
     }
