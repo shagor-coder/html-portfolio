@@ -1,0 +1,9 @@
+.blog-showcase{
+    .hoverSecondary{
+        &:hover{
+            @include hoverEffects();
+            background: none !important;
+            color: $secondary !important;
+        }
+    }
+}

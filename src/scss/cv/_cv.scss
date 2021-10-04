@@ -1,0 +1,26 @@
+.resume{
+    .cv-social{
+        i{
+            width: 3rem;
+            height: 3rem;
+            background: $primary;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            border-radius: 50%;
+        }
+    }
+        
+    .hobby{
+        p{
+            width: 8rem;
+            height: 8rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid $secondary !important;
+            border-radius: 50%;
+        }
+    }
+}
