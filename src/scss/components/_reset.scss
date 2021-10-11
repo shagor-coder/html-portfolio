@@ -1,74 +1,75 @@
 // RESETTING BOOTSTRAP COMPONENTS & COLORS
 
-.container{
-    max-width: 75rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+.container {
+  max-width: 75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
-.bg-primary{
-    background-color: $primary !important;
+.bg-primary {
+  background-color: $primary !important;
 }
-.text-primary{
+.text-primary {
+  color: $primary !important;
+}
+.text-secondary {
+  color: $secondary !important;
+}
+.bg-primary {
+  background-color: $primary !important;
+}
+.border-primary {
+  border-color: $primary !important;
+}
+.btn-primary {
+  border-color: $primary !important;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 100%;
+
+  @media (max-width: 450px) {
+    font-size: 80%;
+  }
+}
+body {
+  line-height: 1.15 !important;
+  font-family: 'Roboto Mono', monospace;
+}
+a {
+  text-decoration: none;
+  color: inherit !important;
+}
+.border-start {
+  border-left: 0.4rem solid $primary !important;
+}
+.portfolio-grid {
+  @include portfolioGrid;
+}
+.img-fluid {
+  aspect-ratio: 4/4.3 !important;
+}
+
+.hoverPrimary {
+  &:hover {
+    @include hoverEffects();
+    background: none !important;
     color: $primary !important;
+  }
 }
-.text-secondary{
-    color: $secondary !important;
+.hoverSecondary {
+  &:hover {
+    @include hoverEffect();
+  }
 }
-.bg-primary{
-    background-color: $primary !important;
-}
-.border-primary{
-    border-color: $primary !important;
-}
-.btn-primary{
-    border-color: $primary !important;
-}
-*{
-    box-sizing: border-box;
-}
-html{
-    font-size: 100%;
-
-    @media (max-width:450px){
-        font-size: 80%;
-    }
-}
-body{
-    line-height: 1.15 !important;
-    font-family: "Roboto Mono", monospace;
-}
-a{
-    text-decoration: none;
-    color: inherit !important;
-}
-.border-start{
-    border-left: 0.4rem solid $primary !important;
-}
-.portfolio-grid{
-    @include portfolioGrid;
-}
-.img-fluid{
-    aspect-ratio: 4/4.3 !important;
+.d-sm-none {
+  @media (max-width: 768px) {
+    display: none;
+  }
 }
 
-.hoverPrimary{
-    &:hover{
-        @include hoverEffects();
-        background: none !important;
-        color: $primary !important;
-    }
-}
-.hoverSecondary{
-    &:hover{
-        @include hoverEffect();
-    }
-}
-.d-sm-none{
-    @media (max-width: 768px){
-        display: none;
-    }
-}
-
-.fs-5,.fs-6{
-    font-size: clamp(1rem + 0.5vh);
+.fs-5,
+.fs-6 {
+  font-size: clamp(1rem + 0.5vh);
 }
