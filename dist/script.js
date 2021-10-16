@@ -1,2 +1,2 @@
-"use strict";var swiper=new Swiper(".mySwiper",{loop:!0,centeredSlides:!1,autoplay:{delay:5e3,disableOnInteraction:!1},breakpoints:{0:{slidesPerView:1},768:{slidesPerView:2},1024:{slidesPerView:2}}});
+"use strict";$(document).ready((function(){$(".p-btn").click((function(){var e=$(this).attr("data-target");"all"===e?$(".p-img").show("1000"):($(".p-img").not("."+e).hide("1000"),$(".p-img").filter("."+e).show("1000"))}))}));var swiper=new Swiper(".mySwiper",{loop:!0,centeredSlides:!1,autoplay:{delay:5e3,disableOnInteraction:!1},breakpoints:{0:{slidesPerView:1},768:{slidesPerView:2},1024:{slidesPerView:2}}});
 //# sourceMappingURL=script.js.map

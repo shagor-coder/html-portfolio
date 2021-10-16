@@ -1,3 +1,6 @@
+// Importing Bootstrap
+@use '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 // MAIN STYLESHEET
 @import './components/variables';
 @import './components/mixins';

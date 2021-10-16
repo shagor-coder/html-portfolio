@@ -1,4 +1,6 @@
-.portfolio{
+.portfolio {
+  background: hsl(256, 93%, 5%);
+  .portfolio-grid {
     @include portfolioGrid;
-    background: hsl(256, 93%, 5%);
+  }
 }

@@ -14,8 +14,6 @@
     <script src="https://kit.fontawesome.com/9f6008d201.js" crossorigin="anonymous" defer></script>
     <!-- Swiper JS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
-    <!-- Bootstrap 5 -->
-    <link rel="stylesheet" href="src/css/bootstrap.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="dist/style.css">
     <title>Developer Shagor - Front-end Developer & Wordpress Specialist</title>
@@ -38,7 +36,6 @@
                     <li class="nav-item"><a href="resume.html" class="nav-link text-secondary fw-bold hoverPrimary">My Resume</a></li>
                     <li class="nav-item"><a href="#portfolio" class="nav-link text-secondary fw-bold hoverPrimary">Portfolio</a></li>
                     <li class="nav-item"><a href="#testimonials" class="nav-link text-secondary fw-bold hoverPrimary">Testimonials</a></li>
-                    <li class="nav-item"><a href="blog.html" class="nav-link text-secondary fw-bold hoverPrimary">Blog</a></li>
                 </ul>
             </div>
         </nav>
@@ -60,7 +57,7 @@
                     </p>
                     <div class="row me-md-5">
                         <div class="col-6">
-                            <a href="resume.html" class="btn btn-lg br rounded-pill border-primary text-primary fw-semi-bold" download>
+                            <a href="./src/img/shagor-cv.pdf" class="btn btn-lg br rounded-pill border-primary text-primary fw-semi-bold" download>
                                 Download CV
                             </a>
                         </div>
@@ -83,7 +80,7 @@
                             <i class="fa fa-certificate"></i>
                         </span>
                         <span class=" d-inline-block fs-2 text-white fw-bold">
-                            8 Years Job <br>
+                            2 Years Job <br>
                             <span class=" text-primary fs-4">
                                 Experience
                             </span>
@@ -97,7 +94,7 @@
                             <i class="fas fa-clipboard-list"></i>
                         </span>
                         <span class=" d-inline-block fs-2 text-white fw-bold">
-                            500+ Project <br>
+                            100+ Project <br>
                             <span class=" text-primary fs-4">
                                 Completed
                             </span>
@@ -556,40 +553,46 @@
             </div>
 
             <div class="row">
-                <div class="col-md-9 col-sm-12 m-auto d-flex align-items-center justify-content-center flex-wrap">
-                    <a href="#" class="btn text-white d-inline-block fw-bold border-primary m-1">
+                <div class="col-md-9 col-sm-12 m-auto d-flex align-items-center justify-content-center flex-wrap" id="filter-btns">
+                    <button type="button" class="btn p-btn text-white d-inline-block fw-bold border-primary m-1 all active" data-target="all">
                         All Projects
-                    </a>
-                    <a href="#" class="btn text-white d-inline-block fw-bold border-primary m-1">
-                        Web Design
-                    </a>
-                    <a href="#" class="btn text-white d-inline-block fw-bold border-primary m-1">
-                        Mobile App
-                    </a>
-                    <a href="#" class="btn text-white d-inline-block fw-bold border-primary m-1">
-                        Graphic Design
-                    </a>
+                    </button>
+                    <button type="button" class="btn p-btn text-white d-inline-block fw-bold border-primary m-1" data-target="wordpress">
+                        WordPress
+                    </button>
+                    <button type="button" class="btn p-btn text-white d-inline-block fw-bold border-primary m-1" data-target="html">
+                        HTML
+                    </button>
+                    <button type="button" class="btn p-btn text-white d-inline-block fw-bold border-primary m-1" data-target="react">
+                        React
+                    </button>
                 </div>
             </div>
 
-            <div class="row my-4 portfolio-grid g-0">
-                <a target="_blank" href="https://shagor-coder.github.io/manage-landing-page" class="">
+            <div class="row my-4 portfolio-grid g-0 p-g">
+                <a target="_blank" href="https://shagor-coder.github.io/manage-landing-page" class="p-img html">
                     <img src="./src/img/thumb (1).png" alt="" class="portfolio-img img-fluid rounded">
                 </a>
-                <a target="_blank" href="https://shagor-coder.github.io/task-app" class="">
+                <a target="_blank" href="https://shagor-coder.github.io/task-app" class="p-img html">
                     <img src="./src/img/thumb (2).png" alt="" class="portfolio-img img-fluid rounded">
                 </a>
-                <a target="_blank" href="https://shagor-coder.github.io/bookmark-landing-page" class="">
+                <a target="_blank" href="https://shagor-coder.github.io/bookmark-landing-page" class="p-img html">
                     <img src="./src/img/thumb (3).png" alt="" class="portfolio-img img-fluid rounded">
                 </a>
-                <a target="_blank" href="https://shagor-coder.github.io/easybank-landing-page" class="">
+                <a target="_blank" href="https://shagor-coder.github.io/easybank-landing-page" class="p-img html">
                     <img src="./src/img/thumb (4).png" alt="" class="portfolio-img img-fluid rounded">
                 </a>
-                <a target="_blank" href="https://shagor-coder.github.io/fylo-dark-theme" class="">
+                <a target="_blank" href="https://shagor-coder.github.io/fylo-dark-theme" class="p-img wordpress">
                     <img src="./src/img/thumb (5).png" alt="" class="portfolio-img img-fluid rounded">
                 </a>
-                <a target="_blank" href="https://shagor-coder.github.io/glozzom-agency" class="">
+                <a target="_blank" href="https://shagor-coder.github.io/glozzom-agency" class="p-img wordpress">
                     <img src="./src/img/thumb (6).png" alt="" class="portfolio-img img-fluid rounded">
+                </a>
+                <a target="_blank" href="https://shagor-coder.github.io/loopstudios-landing-page" class="p-img react">
+                    <img src="./src/img/thumb (7).png" alt="" class="portfolio-img img-fluid rounded">
+                </a>
+                <a target="_blank" href="https://shagor-coder.github.io/hddle-landng-page" class="p-img react">
+                    <img src="./src/img/thumb (8).png" alt="" class="portfolio-img img-fluid rounded">
                 </a>
             </div>
 
@@ -607,10 +610,10 @@
                         Have a Project on Your Mind
                     </h3>
                     <p class="lead">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae pariatur, sunt ducimus dicta odit ad molestiae expedita quia veniam quasi.
+                        Want to have a website of your own, for online presence in order to grow your career. Then you’re in the right place. Let's discuss your project.
                     </p>
 
-                    <a href="#" class="btn btn-lg rounded-pill fw-bold bg-white text-dark px-5">
+                    <a href="#contact" class="btn btn-lg rounded-pill fw-bold bg-white text-dark px-5">
                         Contact Me
                     </a>
                 </div>
@@ -624,7 +627,6 @@
     </section>
 
     <!-- PORTFOLIO SECTION ENDS -->
-
 
     <!-- TESTIMONIAL SECTION -->
 
@@ -649,7 +651,7 @@
                         <div class="row p-3">
     
                                 <div class="col-md-4">
-                                        <img src="./src/img/0.jpg" alt="" class=" img-fluid  rounded-circle me-0">
+                                        <img src="./src/img/testimonial_2.jpg" alt="" class=" img-fluid  rounded-circle me-0">
                                 </div>
                                 <div class="col-md-4 d-grid">
                                     <h4 class="fs-5 align-self-center">
@@ -673,7 +675,7 @@
     
                         <div class="row p-3">
                             <p class="lead fs-6 text-sm-center">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo fugiat repellat accusantium similique? Doloremque, corrupti consequuntur dolorem quis sed excepturi?
+                               He is very sincere with his work and work as guidelines.
                             </p>
                         </div>
 
@@ -684,11 +686,11 @@
                         <div class="row p-3">
     
                                 <div class="col-md-4">
-                                        <img src="./src/img/0.jpg" alt="" class=" img-fluid  rounded-circle me-0">
+                                        <img src="./src/img/testimonial_1.jpg" alt="" class=" img-fluid  rounded-circle me-0">
                                 </div>
                                 <div class="col-md-4 d-grid">
                                     <h4 class="fs-5 align-self-center">
-                                        Raul K Smith <br>
+                                        Ivana Jones <br>
                                         <small class=" fw-light">Client</small>
                                     </h4>
                                 </div>
@@ -708,7 +710,7 @@
     
                         <div class="row p-3">
                             <p class="lead fs-6 text-sm-center">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo fugiat repellat accusantium similique? Doloremque, corrupti consequuntur dolorem quis sed excepturi?
+                                He is very skillfull and communicates with us often. I would recommend him.
                             </p>
                         </div>
 
@@ -721,75 +723,6 @@
     </section>
 
     <!-- TESTIMONIAL SECTION ENDS -->
-
-    <!-- BLOG SECTION -->
-
-    <section class="blog py-5">
-        <div class="container">
-
-            <div class="row mb-4">
-                <div class="col-12 text-center">
-                    <h2 class=" fs-2 text-primary">
-                        Blog
-                    </h2>
-                    <h3 class="fs-1 fw-bolder">
-                        Latest Updates
-                    </h3>
-                </div>
-            </div>
-
-            <div class="row mb-4">
-                <div class="col-md-4">
-                    <a class="card bg-dark" href="blog.html">
-                        <div class="card-image-top">
-                            <img class=" img-fluid" src="./src/img/0.jpg" alt="">
-                        </div>
-                        <div class="card-header">
-                            <small class="lead">
-                                01 JAN 2021
-                            </small>
-                            <p class="lead fs-5">
-                                Lorem ipsum dolor sit amet consectetur.
-                            </p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a class="card bg-dark" href="blog.html">
-                        <div class="card-image-top">
-                            <img class=" img-fluid" src="./src/img/0.jpg" alt="">
-                        </div>
-                        <div class="card-header">
-                            <small class="lead">
-                                01 JAN 2021
-                            </small>
-                            <p class="lead fs-5">
-                                Lorem ipsum dolor sit amet consectetur.
-                            </p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a class="card bg-dark" href="blog.html">
-                        <div class="card-image-top">
-                            <img class=" img-fluid" src="./src/img/0.jpg" alt="">
-                        </div>
-                        <div class="card-header">
-                            <small class="lead">
-                                01 JAN 2021
-                            </small>
-                            <p class="lead fs-5">
-                                Lorem ipsum dolor sit amet consectetur.
-                            </p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- BLOG SECTION ENDS -->
 
     <!-- CONTACT SECTION -->
 
@@ -809,7 +742,7 @@
 
             <div class="row">
 
-                <form action="#" method="post" class=" col-md-8">
+                <form action="#" method="post" class=" col-md-8" netlify>
                     <div class="row">
                         <div class="col-md-6 mb-2">
                             <input class=" form-control" type="text" placeholder="Name" required>
@@ -838,8 +771,8 @@
                                <strong class=" d-inline-block mb-1">
                                    Call Me
                                 </strong> <br>
-                                201-354-4443 <br>
-                                201-354-4443
+                                +880-174267273 <br>
+                                +880-174267273
                             </span>
                         </div>
                         <div class=" mb-3 d-flex">
@@ -848,8 +781,8 @@
                                <strong class=" d-inline-block mb-1">
                                    E-Mail
                                 </strong> <br>
-                                contact@email.com <br>
-                                info@email.com
+                                msh43320@gmail.com <br>
+                               msh43320@gmail.com
                             </span>
                         </div>
                         <div class="mb-3 d-flex">
@@ -858,8 +791,8 @@
                                <strong class=" d-inline-block mb-1">
                                    Location
                                 </strong> <br>
-                                474 Central Road <br>
-                                Newyork
+                                Jashore, Khulna <br>
+                                Bangladesh 
                             </span>
                         </div>
                     </div>
@@ -892,23 +825,23 @@
 
                 <ul class="d-flex flex-sm-row align-items-center justify-content-center social">
                     <li class="d-inline-block">
-                        <a href="#" class="hoverSecondary d-flex mx-1 bg-primary p-3 rounded-1">
+                        <a href="https://facebook.com/mdshagor.hossain1" class="hoverSecondary d-flex mx-1 bg-primary p-3 rounded-1" target="_blank">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
                         </a>
                     </li>
                     <li class="d-inline-block">
-                        <a href="#" class="hoverSecondary d-flex mx-1 bg-primary p-3 rounded-1">
+                        <a href="https://twitter.com/shagor276" class="hoverSecondary d-flex mx-1 bg-primary p-3 rounded-1" target="_blank">
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                         </a>
                     </li>
                     <li class="d-inline-block">
-                        <a href="#" class="hoverSecondary d-flex mx-1 bg-primary p-3 rounded-1">
+                        <a href="https://www.linkedin.com/in/md-shagor-hossain-b39119215/" class="hoverSecondary d-flex mx-1 bg-primary p-3 rounded-1" target="_blank">
                             <i class="fa fa-linkedin" aria-hidden="true"></i>
                         </a>
                     </li>
                     <li class="d-inline-block">
-                        <a href="#" class="hoverSecondary d-flex mx-1 bg-primary p-3 rounded-1">
-                            <i class="fa fa-pinterest" aria-hidden="true"></i>
+                        <a href="https://github.com/shagor-coder" class="hoverSecondary d-flex mx-1 bg-primary p-3 rounded-1" target="_blank">
+                            <i class="fa fa-github" aria-hidden="true"></i>
                         </a>
                     </li>
                 </ul>
@@ -926,9 +859,10 @@
 
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-    <!-- BOOTSTRAP 5 -->
-    <script src="src/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap Js -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.bundle.min.js" integrity="sha512-pax4MlgXjHEPfCwcJLQhigY7+N8rt6bVvWLFyUMuxShv170X53TRzGPmPkZmGBhk+jikR8WBM4yl7A9WMHHqvg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
     <!-- Custom Js -->
-    <script src="dist/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/dist/script.js"></script>
 </body>
 </html>

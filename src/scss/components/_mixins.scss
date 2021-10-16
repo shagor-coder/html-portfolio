@@ -1,24 +1,24 @@
-@mixin font600{
-    font-weight: 600;
+@mixin font600 {
+  font-weight: 600;
 }
 
-@mixin  hoverEffects() {
-    background: $primary !important;
-    color: $secondary !important;
-    transition: all 0.3s ease-in-out;
+@mixin hoverEffects() {
+  background: $primary !important;
+  color: $secondary !important;
+  transition: all 0.3s ease-in-out;
 }
-@mixin  hoverEffect() {
-    background: $secondary !important;
-    color: $primary !important;
-    transition: all 0.3s ease-in-out;
+@mixin hoverEffect() {
+  background: $secondary !important;
+  color: $primary !important;
+  transition: all 0.3s ease-in-out;
 }
 
 @mixin portfolioGrid {
-    display: grid;
-    grid-gap: 0.6rem;
-    grid-template-columns: repeat( auto-fit, minmax(20rem, 1fr) );
+  display: grid;
+  grid-gap: 0.6rem;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
 
-    @media (max-width: 400px){
-        grid-template-columns: repeat( auto-fit, minmax(18rem, 1fr) );
-    }
+  @media (max-width: 400px) {
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  }
 }
