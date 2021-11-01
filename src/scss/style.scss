@@ -1,12 +1,10 @@
-// Importing Bootstrap
-@use '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-
 // MAIN STYLESHEET
 @import './components/variables';
 @import './components/mixins';
 @import './components/reset';
 @import './components/button';
 @import './home-page/hero';
+@import './home-page/navbar';
 @import './home-page/intro';
 @import './home-page/skill';
 @import './home-page/qualification';

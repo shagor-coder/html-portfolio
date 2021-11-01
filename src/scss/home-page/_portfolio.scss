@@ -2,5 +2,6 @@
   background: hsl(256, 93%, 5%);
   .portfolio-grid {
     @include portfolioGrid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)) !important;
   }
 }

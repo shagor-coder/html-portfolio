@@ -1,27 +1,27 @@
-.services{
-    background: hsl(263, 100%, 5%);
-    perspective: 1mm;
-    .card{
-        border-radius: 0;
-        border-top-right-radius: 1.8rem;
+.services {
+  background: hsl(263, 100%, 5%);
+  perspective: 1mm;
+  .card {
+    border-radius: 0;
+    border-top-right-radius: 1.8rem;
+    box-shadow: 0 0 0.3rem rgba(255, 255, 255, 0.125);
 
-        &:hover{
-            @include hoverEffects;
+    &:hover {
+      @include hoverEffects;
 
-            i{
-                background: $secondary !important;
-                color: $primary;
-            }
-        }
-        
-
-        .card-header{
-            margin-top: -2.5rem;
-            border: none;
-        }
-
-        i{
-            border-radius: 0.5rem;
-        }
+      i {
+        background: $secondary !important;
+        color: $primary;
+      }
     }
+
+    .card-header {
+      margin-top: -2.5rem;
+      border: none;
+    }
+
+    i {
+      border-radius: 0.5rem;
+    }
+  }
 }

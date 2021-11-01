@@ -12,6 +12,22 @@ $(document).ready(function () {
         .show('1000')
     }
   })
+  $('.menuToggler').click(function () {
+    $('.menuToggler').toggleClass('active')
+    $('body').toggleClass('active')
+    $('.nav-list').toggleClass('active')
+    $('.nav-item').click(function () {
+      $('.nav-list').removeClass('active')
+      $('body').removeClass('active')
+      $('.menuToggler').removeClass('active')
+      $('.menuToggler').html(`<i class="fa fa-bars" aria-hidden="true"></i>`)
+    })
+    if ($('.menuToggler').hasClass('active')) {
+      $('.menuToggler').html(`<i class="fa fa-times" aria-hidden="true"></i>`)
+    } else {
+      $('.menuToggler').html(`<i class="fa fa-bars" aria-hidden="true"></i>`)
+    }
+  })
 })
 
 var swiper = new Swiper('.mySwiper', {

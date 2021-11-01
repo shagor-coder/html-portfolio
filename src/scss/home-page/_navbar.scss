@@ -1,0 +1,54 @@
+.header {
+  width: 100%;
+  height: 4.75rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  background: #000;
+  z-index: 1000;
+
+  .menuToggler {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0.5rem;
+    right: 1rem;
+    cursor: pointer;
+    display: none;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .menuToggler {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+    }
+
+    .nav-list {
+      position: absolute;
+      width: 100%;
+      height: 100vh;
+      top: 4.75rem;
+      right: -100%;
+      background: rgb(61, 2, 61);
+      clip-path: circle(0% at 93.5% 8%);
+      flex-direction: column !important;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      transition: all 0.3s ease-in-out;
+
+      .nav-link {
+        font-size: 1.5rem;
+      }
+
+      &.active {
+        clip-path: circle(110% at 93.5% 8%);
+        right: 0;
+        opacity: 0.8;
+      }
+    }
+  }
+}
