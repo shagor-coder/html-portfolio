@@ -40,12 +40,8 @@
       z-index: 1000;
       transition: all 0.3s ease-in-out;
 
-      .nav-link {
-        font-size: 1.5rem;
-      }
-
       &.active {
-        clip-path: circle(110% at 93.5% 8%);
+        clip-path: circle(160% at 93.5% 8%);
         right: 0;
         opacity: 0.8;
       }

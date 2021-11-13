@@ -43,7 +43,8 @@ html {
 }
 body {
   line-height: 1.15 !important;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Ubuntu', monospace;
+  font-size: 16px;
 
   &.active {
     overflow-y: hidden;
@@ -55,6 +56,9 @@ ul {
   list-style: none;
   color: inherit !important;
 }
+p {
+  line-height: 1.5;
+}
 .border-start {
   border-left: 0.4rem solid $primary !important;
 }
@@ -64,7 +68,11 @@ ul {
 .img-fluid {
   aspect-ratio: 4/4.3 !important;
 }
-
+.nav-item {
+  .nav-link {
+    font-size: 1.125rem !important;
+  }
+}
 .hoverPrimary {
   &:hover {
     @include hoverEffects();
