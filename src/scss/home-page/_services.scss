@@ -1,10 +1,8 @@
 .services {
-  background: hsl(263, 100%, 5%);
-  perspective: 1mm;
+  background: hsl(266, 78%, 2%);
   .card {
-    border-radius: 0;
-    border-top-right-radius: 1.8rem;
-    box-shadow: 0 0 0.3rem rgba(255, 255, 255, 0.125);
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(253, 253, 253, 0.25);
 
     &:hover {
       @include hoverEffects;
@@ -22,6 +20,7 @@
 
     i {
       border-radius: 0.5rem;
+      box-shadow: 0 5px 10px rgba(236, 213, 169, 0.253);
     }
   }
 }

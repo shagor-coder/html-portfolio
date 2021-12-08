@@ -15,7 +15,7 @@
 
 @mixin portfolioGrid {
   display: grid;
-  grid-gap: 0.6rem;
+  grid-gap: 0.875rem;
   grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
 
   @media (max-width: 400px) {

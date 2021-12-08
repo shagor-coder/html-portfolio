@@ -1,14 +1,15 @@
-.footer{
-    .social{
-        .d-flex{
-            width: 2rem;
-            height: 2rem;
-            align-items: center;
-            justify-content: center;
+.footer {
+  background: hsl(266, 78%, 2%);
+  .social {
+    .d-flex {
+      width: 2rem;
+      height: 2rem;
+      align-items: center;
+      justify-content: center;
 
-            .fa{
-                font-size: 1.3rem;
-            }
-        }
+      .fa {
+        font-size: 1.3rem;
+      }
     }
+  }
 }

@@ -1,224 +1,319 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Front-end html css" />
+    <meta
+      name="description"
+      content="Developer Shagor - Front-end Developer & Wordpress Specialis"
+    />
     <!-- GOOGLE FONT -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Custom CSS & Font Awesome -->
-    <script src="https://kit.fontawesome.com/9f6008d201.js" crossorigin="anonymous" defer></script>
+    <script
+      src="https://kit.fontawesome.com/9f6008d201.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
     <!-- Swiper JS -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
     <!-- Bootstrap 5 -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="dist/style.css">
+    <link rel="stylesheet" href="dist/style.css" />
     <title>Developer Shagor - Front-end Developer & Wordpress Specialist</title>
-</head>
-<body class="bg-dark text-secondary">
-    
-    <header class="header pb-2">
-        <nav class="navbar navbar-expand-lg navbar-dark container pt-2">
-            <a href="index.html" class="navbar-brand text-primary border  border-primary px-3 py-2 fw-bolder fs-1">
-                S.
-            </a>
-            <div class="menuToggler">
-                <i class="fa fa-bars" aria-hidden="true"></i>
-            </div>
-            <ul class="nav-list d-flex justify-content-center align-items-center ms-auto">
-                <li class="nav-item"><a href="index.html" class="nav-link text-secondary fw-bold hoverPrimary">Home</a></li>
-                <li class="nav-item"><a href="#services" class="nav-link text-secondary fw-bold hoverPrimary">Services</a></li>
-                <li class="nav-item"><a href="resume.html" class="nav-link text-secondary fw-bold hoverPrimary">My Resume</a></li>
-                <li class="nav-item"><a href="#portfolio" class="nav-link text-secondary fw-bold hoverPrimary">Portfolio</a></li>
-                <li class="nav-item"><a href="#testimonials" class="nav-link text-secondary fw-bold hoverPrimary">Testimonials</a></li>
-            </ul>            
-        </nav>
+  </head>
+  <body class="bg-dark text-secondary">
+    <header class="header pb-2 drop-shadow">
+      <nav class="navbar navbar-expand-lg navbar-dark container pt-3">
+        <a href="index.html" class="navbar-brand text-primary fw-bolder fs-1">
+          SHAGOR
+        </a>
+        <div class="menuToggler">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+        <ul
+          class="
+            nav-list
+            d-flex
+            justify-content-center
+            align-items-center
+            ms-auto
+          "
+        >
+          <li class="nav-item">
+            <a
+              href="#home"
+              class="nav-link fw-bold hoverPrimary active"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="#about"
+              class="nav-link fw-bold hoverPrimary"
+              >About</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="#services"
+              class="nav-link fw-bold hoverPrimary"
+              >Services</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="#portfolio"
+              class="nav-link fw-bold hoverPrimary"
+              >Portfolio</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="#testimonials"
+              class="nav-link fw-bold hoverPrimary"
+              >Testimonials</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="#contact"
+              class="nav-link fw-bold hoverPrimary"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
     </header>
+    <!-- Loader Animation -->
 
+    <div class="loader">
+      <div class="loading"></div>
+    </div>
+
+    <!-- Loader Animation -->
+    <main class="main">
+    
+    
     <!-- HERO SECTION -->
 
-    <section class="hero pt-5">
-        <div class="container">
-            <div class="row py-5">
-                <div class="col-md-6 align-self-center mb-3">
-                    <div class="mb-3">
-                        <h2 class="text-primary">Hi, I am</h2>
-                        <h1 class="text-secondary fs-1 fw-bolder">Shagor Hossain </h1><br>
-                        <h3 class="fs-4 text-secondary">Front-end Developer & WordPress Specialist</h3>
-                    </div>
-                    <p>
-                        Web Design and Development is my passion. I get deeper understanding of my clients needs and problems.
-                    </p>
-                    <div class="row me-md-5">
-                        <div class="col-6">
-                            <a href="./src/img/shagor-cv.pdf" class="btn btn-lg br rounded-pill border-primary text-primary fw-semi-bold" download>
-                                Download CV
-                            </a>
-                        </div>
-                        <div class="col-6">
-                            <a href="#contact" class="btn btn-lg br rounded-pill border-primary text-primary fw-semi-bold">
-                                Contact Me
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <img class="img-fluid rounded-1" src="./src/img/0.jpg" alt="Shagor">
-                </div>
+    <section class="hero pt-5 mt-3" id="home">
+      <div class="container">
+        <div class="row py-5 flex-md-row flex-column-reverse">
+          <div class="col-md-6 align-self-center mb-3">
+            <div class="mb-3">
+              <h2 class="text-primary">Hi, I am</h2>
+              <h1 class="text-secondary fs-1 fw-bolder">Shagor Hossain</h1>
+              <br />
+              <h3 class="fs-4 text-secondary">
+                Front-end Developer & WordPress Specialist
+              </h3>
             </div>
-            <!-- ICON BOX -->
-            <div class="row mt-2 rounded-pill py-3 bg-dark">
-                <div class="col-md-4 border-end border-primary d-flex justify-content-center align-items-center">
-                    <p class="">
-                        <span class=" d-inline-block me-2">
-                            <i class="fa fa-certificate"></i>
-                        </span>
-                        <span class=" d-inline-block fs-2 text-white fw-bold">
-                            2 Years Job <br>
-                            <span class=" text-primary fs-4">
-                                Experience
-                            </span>
-                        </span>
-                    </p>
-                </div>
-
-                <div class="col-md-4 border-end border-primary d-flex justify-content-center align-items-center">
-                    <p class="">
-                        <span class=" d-inline-block me-2">
-                            <i class="fas fa-clipboard-list"></i>
-                        </span>
-                        <span class=" d-inline-block fs-2 text-white fw-bold">
-                            100+ Project <br>
-                            <span class=" text-primary fs-4">
-                                Completed
-                            </span>
-                        </span>
-                    </p>
-                </div>
-
-                <div class="col-md-4 d-flex justify-content-center align-items-center">
-                    <p class="">
-                        <span class=" d-inline-block me-2">
-                            <i class="fas fa-headset"></i>
-                        </span>
-                        <span class=" d-inline-block fs-2 text-white fw-bold">
-                            Support <br>
-                            <span class=" text-primary fs-4">
-                                Online 24/7
-                            </span>
-                        </span>
-                    </p>
-                </div>
+            <p>
+              Web Design and Development is my passion. I get deeper
+              understanding of my clients needs and problems.
+            </p>
+            <div class="row me-md-5">
+              <div class="col-6">
+                <a
+                  href="./src/img/shagor-cv.pdf"
+                  class="
+                    btn btn-lg
+                    br
+                    rounded-pill
+                    border-primary
+                    text-primary
+                    fw-semi-bold
+                  "
+                  download
+                >
+                  Download CV
+                </a>
+              </div>
+              <div class="col-6">
+                <a
+                  href="#contact"
+                  class="
+                    btn btn-lg
+                    br
+                    rounded-pill
+                    border-primary
+                    text-primary
+                    fw-semi-bold
+                  "
+                >
+                  Contact Me
+                </a>
+              </div>
             </div>
+          </div>
+          <div class="col-md-6">
+            <img
+              class="img-fluid rounded-1"
+              src="./src/img/0.jpg"
+              alt="Shagor"
+            />
+          </div>
         </div>
+        <!-- ICON BOX -->
+        <div class="row mt-2 d-none d-md-flex rounded-pill py-3 bg-dark drop-shadow">
+          <div
+            class="
+              col-md-4
+              border-end border-primary
+              d-flex
+              justify-content-center
+              align-items-center
+            "
+          >
+            <p class="">
+              <span class="d-inline-block me-2">
+                <i class="fa fa-certificate"></i>
+              </span>
+              <span class="d-inline-block fs-2 text-white fw-bold">
+                2 Years Job <br />
+                <span class="text-primary fs-4"> Experience </span>
+              </span>
+            </p>
+          </div>
+
+          <div
+            class="
+              col-md-4
+              border-end border-primary
+              d-flex
+              justify-content-center
+              align-items-center
+            "
+          >
+            <p class="">
+              <span class="d-inline-block me-2">
+                <i class="fas fa-clipboard-list"></i>
+              </span>
+              <span class="d-inline-block fs-2 text-white fw-bold">
+                100+ Project <br />
+                <span class="text-primary fs-4"> Completed </span>
+              </span>
+            </p>
+          </div>
+
+          <div
+            class="col-md-4 d-flex justify-content-center align-items-center"
+          >
+            <p class="">
+              <span class="d-inline-block me-2">
+                <i class="fas fa-headset"></i>
+              </span>
+              <span class="d-inline-block fs-2 text-white fw-bold">
+                Support <br />
+                <span class="text-primary fs-4"> Online 24/7 </span>
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- HERO SECTION ENDS -->
 
     <!-- INTRO SECTION -->
 
-    <section class="intro py-5">
-        <div class="container">
-            <div class="row pt-5">
-                <div class="col-md-5 col-sm-12 intro-img">
-                    <div class="img-con">
-                        <img src="./src/img/0.jpg" alt="Shagor" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-md-7 col-sm-12 align-self-center pt-4">
-                    <h2 class=" fs-3 text-primary">
-                        My Intro
-                    </h2>
-                    <h3 class=" fs-1 fw-bold">
-                        About Me
-                    </h3>
-                    <p class="lead my-4">
-                        My goal is to satisfy clients, try to understand what they want for there website, help them from beginning to end the project and give support for every problem.
-                    </p>
-
-                    <p class="lead">
-                        <span class=" d-inline-block me-2">
-                            <i class="fa fa-user text-primary">
-                            </i>
-                        </span>
-                            Name    :
-                        <span class=" d-inline-block ms-2">
-                            Md Shagor Hossain
-                        </span>
-                    </p>
-
-                    <p class="lead">
-                        <span class=" d-inline-block me-1">
-                            <i class="fa fa-phone text-primary">
-                            </i>
-                        </span>
-                            Phone  :
-                        <span class=" d-inline-block ms-2">
-                            +88 0174 26 77273
-                        </span>
-                    </p>
-
-                    <p class="lead">
-                        <span class=" d-inline-block me-1">
-                            <i class="fa fa-envelope text-primary">
-                            </i>
-                        </span>
-                            Email    :
-                        <span class=" d-inline-block ms-2">
-                            shagorhossain@gmail.com
-                        </span>
-                    </p>
-
-                    <h4 class=" fs-1 fw-bold">
-                        My Interests
-                    </h4>
-
-                    <div class="row">
-                        <div class="col-md-3 col-sm-3">
-                            <p class="lead">
-                                <span class=" d-inline-block">
-                                    <i class="fa fa-music d-inline-block text-primary">
-                                    </i>
-                                    Music
-                                </span>
-                            </p>
-                        </div>
-                        <div class="col-md-3 col-sm-3">
-                            <p class="lead">
-                                <span class=" d-inline-block">
-                                    <i class="fa fa-suitcase d-inline-block text-primary">
-                                    </i>
-                                    Travel
-                                </span>
-                            </p>
-                        </div>
-                        <div class="col-md-3 col-sm-3">
-                            <p class="lead">
-                                <span class=" d-inline-block">
-                                    <i class="fa fa-film d-inline-block text-primary">
-                                    </i>
-                                    Movie
-                                </span>
-                            </p>
-                        </div>
-                        <div class="col-md-3 col-sm-3">
-                            <p class="lead">
-                                <span class=" d-inline-block">
-                                    <i class="fa fa-camera d-inline-block text-primary">
-                                    </i>
-                                    Photo
-                                </span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
+    <section class="intro py-5" id="about">
+      <div class="container">
+        <div class="row pt-5">
+          <div class="col-md-5 col-sm-12 intro-img">
+            <div class="img-con">
+              <img src="./src/img/0.jpg" alt="Shagor" class="img-fluid" />
             </div>
+          </div>
+          <div class="col-md-7 col-sm-12 align-self-center pt-4">
+            <h2 class="fs-3 text-primary">My Intro</h2>
+            <h3 class="fs-1 fw-bold">About Me</h3>
+            <p class="lead my-4">
+              My goal is to satisfy clients, try to understand what they want
+              for there website, help them from beginning to end the project and
+              give support for every problem.
+            </p>
+
+            <p class="lead">
+              <span class="d-inline-block me-2">
+                <i class="fa fa-user text-primary"> </i>
+              </span>
+              Name :
+              <span class="d-inline-block ms-2"> Md Shagor Hossain </span>
+            </p>
+
+            <p class="lead">
+              <span class="d-inline-block me-1">
+                <i class="fa fa-phone text-primary"> </i>
+              </span>
+              Phone :
+              <span class="d-inline-block ms-2"> +88 0174 26 77273 </span>
+            </p>
+
+            <p class="lead">
+              <span class="d-inline-block me-1">
+                <i class="fa fa-envelope text-primary"> </i>
+              </span>
+              Email :
+              <span class="d-inline-block ms-2"> shagorhossain@gmail.com </span>
+            </p>
+
+            <h4 class="fs-1 fw-bold">My Interests</h4>
+
+            <div class="row">
+              <div class="col-md-3 col-sm-3">
+                <p class="lead">
+                  <span class="d-inline-block">
+                    <i class="fa fa-music d-inline-block text-primary"> </i>
+                    Music
+                  </span>
+                </p>
+              </div>
+              <div class="col-md-3 col-sm-3">
+                <p class="lead">
+                  <span class="d-inline-block">
+                    <i class="fa fa-suitcase d-inline-block text-primary"> </i>
+                    Travel
+                  </span>
+                </p>
+              </div>
+              <div class="col-md-3 col-sm-3">
+                <p class="lead">
+                  <span class="d-inline-block">
+                    <i class="fa fa-film d-inline-block text-primary"> </i>
+                    Movie
+                  </span>
+                </p>
+              </div>
+              <div class="col-md-3 col-sm-3">
+                <p class="lead">
+                  <span class="d-inline-block">
+                    <i class="fa fa-camera d-inline-block text-primary"> </i>
+                    Photo
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- INTRO SECTION ENDS -->
@@ -226,25 +321,21 @@
     <!-- SKILL SECTION -->
 
     <section class="skill py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <h2 class=" fs-2 text-primary">
-                        Why choose me?
-                    </h2>
-                    <h3 class="fs-1 fw-bolder">
-                        My Expertise Area
-                    </h3>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="fs-2 text-primary">Why choose me?</h2>
+            <h3 class="fs-1 fw-bolder">My Expertise Area</h3>
+          </div>
+        </div>
 
-            <div class="row mt-3">
+        <div class="row mt-3 skillbar">
 
                 <div class="col-md-6 g-lg-5">
-                    <p class="lead after fw-bold" name="85%">
+                    <p class="lead after fw-bold" name="95%">
                         HTML
                         <div class="progress">
-                            <div class="py-2 progress-bar progress-bar-striped" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                            <div class="py-2 progress-bar progress-bar-striped" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" data-progress='95'>
                             </div>
                         </div>
                     </p>
@@ -252,7 +343,7 @@
                     <p class="lead after fw-bold" name="80%">
                         CSS
                         <div class="progress">
-                            <div class="py-2 progress-bar progress-bar-striped" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                            <div class="py-2 progress-bar progress-bar-striped" role="progressbar" style="width: 80%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" data-progress='90'>
                             </div>
                         </div>
                     </p>
@@ -260,17 +351,24 @@
                     <p class="lead after fw-bold" name="70%">
                         JavaScript
                         <div class="progress">
-                            <div class="py-2 progress-bar progress-bar-striped" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                            <div class="py-2 progress-bar progress-bar-striped" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" data-progress='70'>
+                            </div>
+                        </div>
+                    </p>
+                    <p class="lead after fw-bold" name="95%">
+                        Bootstrap
+                        <div class="progress">
+                            <div class="py-2 progress-bar progress-bar-striped" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" data-progress='95'>
                             </div>
                         </div>
                     </p>
                 </div>
 
                 <div class="col-md-6 g-lg-5">
-                    <p class="lead after fw-bold" name="75%">
+                    <p class="lead after fw-bold" name="90%">
                         SASS/SCSS
                         <div class="progress">
-                            <div class="py-2 progress-bar progress-bar-striped" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            <div class="py-2 progress-bar progress-bar-striped" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" data-progress='90'>
                             </div>
                         </div>
                     </p>
@@ -278,7 +376,7 @@
                     <p class="lead after fw-bold" name="80%">
                         Wordpress
                         <div class="progress">
-                            <div class="py-2 progress-bar progress-bar-striped" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                            <div class="py-2 progress-bar progress-bar-striped" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" data-progress='80'>
                             </div>
                         </div>
                     </p>
@@ -286,251 +384,133 @@
                     <p class="lead after fw-bold" name="70%">
                         Adobe XD
                         <div class="progress">
-                            <div class="py-2 progress-bar progress-bar-striped" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                            <div class="py-2 progress-bar progress-bar-striped" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" data-progress='70'>
+                            </div>
+                        </div>
+                    </p>
+                    <p class="lead after fw-bold" name="80%">
+                        Figma
+                        <div class="progress">
+                            <div class="py-2 progress-bar progress-bar-striped" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
+                            data-progress='80'>
                             </div>
                         </div>
                     </p>
                 </div>
 
             </div>
-        </div>
+      </div>
     </section>
 
     <!-- SKILL SECTION ENDS-->
 
-    <!-- QUALIFICATION SECTION -->
-
-    <section class="qualification py-5">
-        <div class="container">
-
-            <div class="row mb-3">
-                <div class="col-12 text-center">
-                    <h2 class=" fs-2 text-primary">
-                        My Qualification
-                    </h2>
-                    <h3 class="fs-1 fw-bolder">
-                        Awesome Journey
-                    </h3>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-6 col-sm-12">
-                    <h2>
-                        <i class="fas fa-graduation-cap"></i>
-                        Education
-                    </h2>
-
-                    <ul class=" list-group">
-                        <li class="ms-4 list-group-item bg-transparent border-start text-secondary fw-bold">
-                            <span class=" fs-5">
-                                Masters of Business Administration 
-                            </span>
-                            <br>
-                            Management <br>
-                            <br>
-                            <span class=" text-primary">
-                                <i class="fas fa-calendar-alt"></i>
-                                2011-2014
-                            </span>
-                        </li>
-
-                        <li class="ms-4 list-group-item bg-transparent border-start text-secondary fw-bold">
-                            <span class=" fs-5">
-                                Honours of Business Administration 
-                            </span>
-                            <br>
-                            Management <br>
-                            <br>
-                            <span class=" text-primary">
-                                <i class="fas fa-calendar-alt"></i>
-                                2009-2011
-                            </span>
-                        </li>
-
-                        <li class="ms-4 list-group-item bg-transparent border-start text-secondary fw-bold">
-                            <span class=" fs-5">
-                                Secondary School Certificate
-                            </span>
-                            <br>
-                            Business <br>
-                            <br>
-                            <span class=" text-primary">
-                                <i class="fas fa-calendar-alt"></i>
-                                2005-2009
-                            </span>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-md-6 col-sm-12">
-                    <h2>
-                        <i class="fas fa-briefcase"></i>
-                        Experience
-                    </h2>
-
-                    <ul class=" list-group">
-                        <li class="ms-4 list-group-item bg-transparent border-start text-secondary fw-bold">
-                            <span class=" fs-5">
-                                Globe Tect IT
-                            </span>
-                            <br>
-                            Autor <br>
-                            <br>
-                            <span class=" text-primary">
-                                <i class="fas fa-calendar-alt"></i>
-                                2018-2019
-                            </span>
-                        </li>
-
-                        <li class="ms-4 list-group-item bg-transparent border-start text-secondary fw-bold">
-                            <span class=" fs-5">
-                                Abacus IT Limited 
-                            </span>
-                            <br>
-                            Admin <br>
-                            <br>
-                            <span class=" text-primary">
-                                <i class="fas fa-calendar-alt"></i>
-                                2016-2018
-                            </span>
-                        </li>
-
-                        <li class="ms-4 list-group-item bg-transparent border-start text-secondary fw-bold">
-                            <span class=" fs-5">
-                                Uposhor College
-                            </span>
-                            <br>
-                            Trainee <br>
-                            <br>
-                            <span class=" text-primary">
-                                <i class="fas fa-calendar-alt"></i>
-                                2004-2016
-                            </span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- QUALIFICATION SECTION ENDS -->
-
     <!-- SERVICE SECTION -->
 
     <section class="services py-5" id="services">
-        <div class="container">
-
-            <div class="row mb-4">
-                <div class="col-12 text-center">
-                    <h2 class=" fs-2 text-primary">
-                        Specialized In
-                    </h2>
-                    <h3 class="fs-1 fw-bolder">
-                        What I Offer
-                    </h3>
-                </div>
-            </div>
-
-            <div class="row pt-5 portfolio-grid">
-                <div class="mb-5">
-                    <div class="card bg-dark border border-secondary">
-                        <div class="card-header">
-                            <i class="fa fa-pencil d-inline-block bg-primary p-4 fs-4"></i>
-                        </div>
-                        <div class="card-body">
-                            <h4 class="fw-bold">
-                                Web Design
-                            </h4>
-                            <p class="fs-6">
-                                Good design of a site is the main thing. I can design eye-catchy and modern website with design tools like Photoshop, Figma & XD.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mb-5">
-                    <div class="card bg-dark border border-secondary">
-                        <div class="card-header">
-                            <i class="fa fa-code d-inline-block bg-primary p-4 fs-4"></i>
-                        </div>
-                        <div class="card-body">
-                            <h4 class="fw-bold">
-                                Web Development
-                            </h4>
-                            <p class="fs-6">
-                                I can develop any type of website for your business, portfolio, company, e-commerce store, blog etc. I provide unique, clean & awesome graphical design interface.
-                            </p>
-                        </div>
-                    </div>   
-                </div>
-
-                <div class="mb-5">
-                    <div class="card bg-dark border border-secondary">
-                        <div class="card-header">
-                            <i class="fa fa-shopping-cart d-inline-block bg-primary p-4 fs-4"></i>
-                        </div>
-                        <div class="card-body">
-                            <h4 class="fw-bold">
-                                E-Commerce
-                            </h4>
-                            <p class="fs-6">
-                                I can create a fully functional online store with any type of payment gateway support and add shopping cart functionality into you’re existing website.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="mb-5">
-                    <div class="card bg-dark border border-secondary">
-                        <div class="card-header">
-                            <i class="fa fa-wordpress d-inline-block bg-primary p-4 fs-4"></i>
-                        </div>
-                        <div class="card-body">
-                            <h4 class="fw-bold">
-                                WordPress Websites
-                            </h4>
-                            <p class="fs-6">
-                                WordPress is a free content management system. I can create any type of websites, landing page or E-commerce store using WordPress CMS.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mb-5">
-                    <div class="card bg-dark border border-secondary">
-                        <div class="card-header">
-                            <i class="fa fa-bug d-inline-block bg-primary p-4 fs-4"></i>
-                        </div>
-                        <div class="card-body">
-                            <h4 class="fw-bold">
-                                Fixing Problems
-                            </h4>
-                            <p class="fs-6">
-                                Website problem & bugs it’s a common problem for every website. Don’t worry about bugs and problems. I can fix any type of problems & bugs for any website.
-                            </p>
-                        </div>
-                    </div>   
-                </div>
-
-                <div class="mb-5">
-                    <div class="card bg-dark border border-secondary">
-                        <div class="card-header">
-                            <i class="fa fa-bolt d-inline-block bg-primary p-4 fs-4"></i>
-                        </div>
-                        <div class="card-body">
-                            <h4 class="fw-bold">
-                                Maintinence & Optimization
-                            </h4>
-                            <p class="fs-6">
-                                Slow loading website it’s the biggest problem for every website. I can boost your website’s speed by optimization your website.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-12 text-center">
+            <h2 class="fs-2 text-primary">Specialized In</h2>
+            <h3 class="fs-1 fw-bolder">What I Offer</h3>
+          </div>
         </div>
+
+        <div class="row pt-5 portfolio-grid">
+          <div class="mb-5">
+            <div class="card bg-dark border border-secondary">
+              <div class="card-header">
+                <i class="fa fa-pencil d-inline-block bg-primary p-4 fs-4"></i>
+              </div>
+              <div class="card-body">
+                <h4 class="fw-bold">Web Design</h4>
+                <p class="fs-6">
+                  Good design of a site is the main thing. I can design
+                  eye-catchy and modern website with design tools like
+                  Photoshop, Figma & XD.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-5">
+            <div class="card bg-dark border border-secondary">
+              <div class="card-header">
+                <i class="fa fa-code d-inline-block bg-primary p-4 fs-4"></i>
+              </div>
+              <div class="card-body">
+                <h4 class="fw-bold">Web Development</h4>
+                <p class="fs-6">
+                  I can develop any type of website for your business,
+                  portfolio, company, e-commerce store, blog etc.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-5">
+            <div class="card bg-dark border border-secondary">
+              <div class="card-header">
+                <i
+                  class="fa fa-shopping-cart d-inline-block bg-primary p-4 fs-4"
+                ></i>
+              </div>
+              <div class="card-body">
+                <h4 class="fw-bold">E-Commerce</h4>
+                <p class="fs-6">
+                  I can create a fully functional online store with any type of
+                  payment gateway support and add shopping cart.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="mb-5">
+            <div class="card bg-dark border border-secondary">
+              <div class="card-header">
+                <i
+                  class="fa fa-wordpress d-inline-block bg-primary p-4 fs-4"
+                ></i>
+              </div>
+              <div class="card-body">
+                <h4 class="fw-bold">WordPress Websites</h4>
+                <p class="fs-6">
+                  WordPress is a free content management system. I can create
+                  any type of websites, landing page or E-commerce.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-5">
+            <div class="card bg-dark border border-secondary">
+              <div class="card-header">
+                <i class="fa fa-bug d-inline-block bg-primary p-4 fs-4"></i>
+              </div>
+              <div class="card-body">
+                <h4 class="fw-bold">Fixing Problems</h4>
+                <p class="fs-6">
+                  Website problem & bugs it’s a common problem for every
+                  website. Don’t worry about bugs and problems.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-5">
+            <div class="card bg-dark border border-secondary">
+              <div class="card-header">
+                <i class="fa fa-bolt d-inline-block bg-primary p-4 fs-4"></i>
+              </div>
+              <div class="card-body">
+                <h4 class="fw-bold">Maintinence</h4>
+                <p class="fs-6">
+                  Slow loading website it’s the biggest problem for every
+                  website. I can boost your website’s speed by optimization.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- SERVICE SECTION ENDS -->
@@ -538,91 +518,202 @@
     <!-- PORTFOLIO SECTION -->
 
     <section class="portfolio py-5" id="portfolio">
-        <div class="container">
-
-            <div class="row mb-4">
-                <div class="col-12 text-center">
-                    <h2 class=" fs-2 text-primary">
-                        My Portfolio
-                    </h2>
-                    <h3 class="fs-1 fw-bolder">
-                        Recent Works
-                    </h3>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-9 col-sm-12 m-auto d-flex align-items-center justify-content-center flex-wrap" id="filter-btns">
-                    <button type="button" class="btn p-btn text-white d-inline-block fw-bold border-primary m-1 all active" data-target="all">
-                        All Projects
-                    </button>
-                    <button type="button" class="btn p-btn text-white d-inline-block fw-bold border-primary m-1" data-target="wordpress">
-                        WordPress
-                    </button>
-                    <button type="button" class="btn p-btn text-white d-inline-block fw-bold border-primary m-1" data-target="html">
-                        HTML
-                    </button>
-                    <button type="button" class="btn p-btn text-white d-inline-block fw-bold border-primary m-1" data-target="react">
-                        React
-                    </button>
-                </div>
-            </div>
-
-            <div class="row my-4 portfolio-grid g-0 p-g">
-                <a target="_blank" href="https://shagor-coder.github.io/manage-landing-page" class="p-img html">
-                    <img src="./src/img/thumb (1).png" alt="" class="portfolio-img img-fluid rounded">
-                </a>
-                <a target="_blank" href="https://shagor-coder.github.io/task-app" class="p-img html">
-                    <img src="./src/img/thumb (2).png" alt="" class="portfolio-img img-fluid rounded">
-                </a>
-                <a target="_blank" href="https://shagor-coder.github.io/bookmark-landing-page" class="p-img html">
-                    <img src="./src/img/thumb (3).png" alt="" class="portfolio-img img-fluid rounded">
-                </a>
-                <a target="_blank" href="https://shagor-coder.github.io/easybank-landing-page" class="p-img html">
-                    <img src="./src/img/thumb (4).png" alt="" class="portfolio-img img-fluid rounded">
-                </a>
-                <a target="_blank" href="https://shagor-coder.github.io/fylo-dark-theme" class="p-img wordpress">
-                    <img src="./src/img/thumb (5).png" alt="" class="portfolio-img img-fluid rounded">
-                </a>
-                <a target="_blank" href="https://shagor-coder.github.io/glozzom-agency" class="p-img wordpress">
-                    <img src="./src/img/thumb (6).png" alt="" class="portfolio-img img-fluid rounded">
-                </a>
-                <a target="_blank" href="https://shagor-coder.github.io/loopstudios-landing-page" class="p-img react">
-                    <img src="./src/img/thumb (7).png" alt="" class="portfolio-img img-fluid rounded">
-                </a>
-                <a target="_blank" href="https://shagor-coder.github.io/hddle-landng-page" class="p-img react">
-                    <img src="./src/img/thumb (8).png" alt="" class="portfolio-img img-fluid rounded">
-                </a>
-            </div>
-
-            <div class="row">
-                <div class="col-md-4 m-auto text-center">
-                    <a href="https://github.com/shagor-coder" class="btn btn-lg rounded-pill border-primary text-primary fw-semi-bold d-grid" target="_blank">
-                        View All
-                    </a>
-                </div>
-            </div>
-
-            <div class="row py-5">
-                <div class="col-md-8 col-sm-12 align-self-center">
-                    <h3 class="fs-1 fw-bold">
-                        Have a Project on Your Mind
-                    </h3>
-                    <p class="lead">
-                        Want to have a website of your own, for online presence in order to grow your career. Then you’re in the right place. Let's discuss your project.
-                    </p>
-
-                    <a href="#contact" class="btn btn-lg rounded-pill fw-bold bg-white text-dark px-5">
-                        Contact Me
-                    </a>
-                </div>
-
-                <div class="col-md-4 col-sm-12 mt-3">
-                    <img src="./src/img/0.jpg" alt="Shagor" class="d-none d-md-block img-fluid">
-                </div>
-            </div>
-
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-12 text-center">
+            <h2 class="fs-2 text-primary">My Portfolio</h2>
+            <h3 class="fs-1 fw-bolder">Recent Works</h3>
+          </div>
         </div>
+
+        <div class="row">
+          <div
+            class="
+              col-md-9 col-sm-12
+              m-auto
+              d-flex
+              align-items-center
+              justify-content-center
+              flex-wrap
+            "
+            id="filter-btns"
+          >
+            <button
+              type="button"
+              class="
+                btn
+                p-btn
+                text-white
+                d-inline-block
+                fw-bold
+                border-primary
+                m-1
+                all
+                active
+              "
+              data-target="all"
+            >
+              All Projects
+            </button>
+            <button
+              type="button"
+              class="
+                btn
+                p-btn
+                text-white
+                d-inline-block
+                fw-bold
+                border-primary
+                m-1
+              "
+              data-target="wordpress"
+            >
+              WordPress
+            </button>
+            <button
+              type="button"
+              class="
+                btn
+                p-btn
+                text-white
+                d-inline-block
+                fw-bold
+                border-primary
+                m-1
+              "
+              data-target="html"
+            >
+              HTML
+            </button>
+            <button
+              type="button"
+              class="
+                btn
+                p-btn
+                text-white
+                d-inline-block
+                fw-bold
+                border-primary
+                m-1
+              "
+              data-target="react"
+            >
+              React
+            </button>
+          </div>
+        </div>
+
+        <div class="row my-4 portfolio-grid g-0 p-g">
+          <a
+            target="_blank"
+            href="https://shagor-coder.github.io/manage-landing-page"
+            class="p-img html"
+          >
+            
+          </a>
+          <a
+            target="_blank"
+            href="https://shagor-coder.github.io/task-app"
+            class="p-img html"
+          >
+            
+          </a>
+          <a
+            target="_blank"
+            href="https://shagor-coder.github.io/bookmark-landing-page"
+            class="p-img html"
+          >
+            
+          </a>
+          <a
+            target="_blank"
+            href="https://shagor-coder.github.io/easybank-landing-page"
+            class="p-img html"
+          >
+            
+          </a>
+          <a
+            target="_blank"
+            href="https://shagor-coder.github.io/fylo-dark-theme"
+            class="p-img wordpress"
+          >
+            
+          </a>
+          <a
+            target="_blank"
+            href="https://shagor-coder.github.io/glozzom-agency"
+            class="p-img wordpress"
+          >
+            
+          </a>
+          <a
+            target="_blank"
+            href="https://shagor-coder.github.io/loopstudios-landing-page"
+            class="p-img react"
+          >
+            
+          </a>
+          <a
+            target="_blank"
+            href="https://shagor-coder.github.io/hddle-landng-page"
+            class="p-img react"
+          >
+            
+          </a>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 m-auto text-center">
+            <a
+              href="https://github.com/shagor-coder"
+              class="
+                btn btn-lg
+                rounded-pill
+                border-primary
+                text-primary
+                fw-semi-bold
+                d-grid
+              "
+              target="_blank"
+            >
+              View All
+            </a>
+          </div>
+        </div>
+
+        <div class="row py-5">
+          <div class="col-md-8 col-sm-12 align-self-center">
+            <h3 class="fs-1 fw-bold">Have a Project on Your Mind</h3>
+            <p class="lead">
+              Want to have a website of your own, for online presence in order
+              to grow your career. Then you’re in the right place. Let's discuss
+              your project.
+            </p>
+
+            <a
+                  href="#contact"
+                  class="
+                    btn btn-lg
+                    br
+                    rounded-pill
+                    border-primary
+                    text-primary
+                    fw-semi-bold
+                  "
+                >
+                  Contact Me
+                </a>
+          </div>
+
+          <div class="col-md-4 col-sm-12 mt-3">
+            <img
+              src="./src/img/0.jpg"
+              alt="Shagor"
+              class="d-none d-md-block img-fluid"
+            />
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- PORTFOLIO SECTION ENDS -->
@@ -630,95 +721,85 @@
     <!-- TESTIMONIAL SECTION -->
 
     <section class="testimonial py-5" id="testimonials">
-        <div class="container">
-
-            <div class="row mb-4">
-                <div class="col-12 text-center">
-                    <h2 class=" fs-2 text-primary">
-                        Testimonials
-                    </h2>
-                    <h3 class="fs-1 fw-bolder">
-                        My Clients Saying
-                    </h3>
-                </div>
-            </div>
-
-            <div class="row  text-sm-center swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-
-                        <div class="row p-3">
-    
-                                <div class="col-md-4">
-                                        <img src="./src/img/testimonial_2.jpg" alt="" class=" img-fluid  rounded-circle me-0">
-                                </div>
-                                <div class="col-md-4 d-grid">
-                                    <h4 class="fs-5 align-self-center">
-                                        Raul K Smith <br>
-                                        <small class=" fw-light">Client</small>
-                                    </h4>
-                                </div>
-                                <div class="col-md-4 d-grid">
-                                    
-                                    <span class="mt-md-5">
-                                        <i class="far fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                    </span>
-    
-                                </div>
-    
-                        </div>
-    
-                        <div class="row p-3">
-                            <p class="lead fs-6 text-sm-center">
-                               He is very sincere with his work and work as guidelines.
-                            </p>
-                        </div>
-
-                    </div>
-    
-                    <div class=" swiper-slide">
-
-                        <div class="row p-3">
-    
-                                <div class="col-md-4">
-                                        <img src="./src/img/testimonial_1.jpg" alt="" class=" img-fluid  rounded-circle me-0">
-                                </div>
-                                <div class="col-md-4 d-grid">
-                                    <h4 class="fs-5 align-self-center">
-                                        Ivana Jones <br>
-                                        <small class=" fw-light">Client</small>
-                                    </h4>
-                                </div>
-                                <div class="col-md-4 d-grid">
-                                    
-                                    <span class="mt-md-5">
-                                        <i class="far fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                    </span>
-    
-                                </div>
-    
-                        </div>
-    
-                        <div class="row p-3">
-                            <p class="lead fs-6 text-sm-center">
-                                He is very skillfull and communicates with us often. I would recommend him.
-                            </p>
-                        </div>
-
-                    </div>
-    
-                </div>
-            </div>
-
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-12 text-center">
+            <h2 class="fs-2 text-primary">Testimonials</h2>
+            <h3 class="fs-1 fw-bolder">My Clients Saying</h3>
+          </div>
         </div>
+
+        <div class="row text-sm-center swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="row p-3">
+                <div class="col-md-4">
+                  <img
+                    src="./src/img/testimonial_2.jpg"
+                    alt=""
+                    class="img-fluid rounded-circle me-0"
+                  />
+                </div>
+                <div class="col-md-4 d-grid">
+                  <h4 class="fs-5 align-self-center">
+                    Raul K Smith <br />
+                    <small class="fw-light">Client</small>
+                  </h4>
+                </div>
+                <div class="col-md-4 d-grid">
+                  <span class="mt-md-5">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </span>
+                </div>
+              </div>
+
+              <div class="row p-3">
+                <p class="lead fs-6 text-sm-center">
+                  He is very sincere with his work and work as guidelines.
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="row p-3">
+                <div class="col-md-4">
+                  <img
+                    src="./src/img/testimonial_1.jpg"
+                    alt=""
+                    class="img-fluid rounded-circle me-0"
+                  />
+                </div>
+                <div class="col-md-4 d-grid">
+                  <h4 class="fs-5 align-self-center">
+                    Ivana Jones <br />
+                    <small class="fw-light">Client</small>
+                  </h4>
+                </div>
+                <div class="col-md-4 d-grid">
+                  <span class="mt-md-5">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </span>
+                </div>
+              </div>
+
+              <div class="row p-3">
+                <p class="lead fs-6 text-sm-center">
+                  He is very skillfull and communicates with us often. I would
+                  recommend him.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- TESTIMONIAL SECTION ENDS -->
@@ -726,142 +807,210 @@
     <!-- CONTACT SECTION -->
 
     <section class="contact py-5" id="contact">
-        <div class="container">
-
-            <div class="row mb-4">
-                <div class="col-12 text-center">
-                    <h2 class=" fs-2 text-primary">
-                        Contact Me
-                    </h2>
-                    <h3 class="fs-1 fw-bolder">
-                        Get in Touch
-                    </h3>
-                </div>
-            </div>
-
-            <div class="row">
-
-                <form action="#" method="post" class=" col-md-8" netlify>
-                    <div class="row">
-                        <div class="col-md-6 mb-2">
-                            <input class=" form-control" type="text" placeholder="Name" required>
-                        </div>
-                        <div class="col-md-6 mb-2">
-                            <input class=" form-control" type="email" placeholder="Email" required>
-                        </div>
-                        <div class="col-sm-12 mb-2">
-                            <input class=" form-control" type="text" placeholder="Subject">
-                        </div>
-                        <div class="col-sm-12">
-                            <textarea class="form-control mb-2" name="message" id="message"  rows="5" placeholder="Message"></textarea>
-                        </div>
-
-                        <div class="col-sm-12 mb-2">
-                            <input class="btn btn-lg rounded-pill bg-primary text-secondary fw-semi-bold d-grid" type="submit" value="Send Message">
-                        </div>
-                    </div>
-                </form>
-
-                <div class="col-md-4 address-line">
-                    <div class="row flex">
-                        <div class=" mb-3 d-flex">
-                            <span class="me-2"><i class="fa fa-phone" aria-hidden="true"></i></span>
-                            <span class="fs-6 d-inline-block">
-                               <strong class=" d-inline-block mb-1">
-                                   Call Me
-                                </strong> <br>
-                                +880-174267273 <br>
-                                +880-174267273
-                            </span>
-                        </div>
-                        <div class=" mb-3 d-flex">
-                            <span class="me-2"><i class="fa fa-envelope" aria-hidden="true"></i></span>
-                            <span class="fs-6 d-inline-block">
-                               <strong class=" d-inline-block mb-1">
-                                   E-Mail
-                                </strong> <br>
-                                msh43320@gmail.com <br>
-                               msh43320@gmail.com
-                            </span>
-                        </div>
-                        <div class="mb-3 d-flex">
-                            <span class="me-2"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-                            <span class="fs-6 d-inline-block">
-                               <strong class=" d-inline-block mb-1">
-                                   Location
-                                </strong> <br>
-                                Jashore, Khulna <br>
-                                Bangladesh 
-                            </span>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-12 text-center">
+            <h2 class="fs-2 text-primary">Contact Me</h2>
+            <h3 class="fs-1 fw-bolder">Get in Touch</h3>
+          </div>
         </div>
+
+        <div class="row">
+          <form id="myForm" class="col-md-8">
+            <div class="row">
+              <div class="col-md-6 mb-2">
+                <input
+                  class="form-control"
+                  type="text"
+                  name="name"
+                  placeholder="Name"
+    
+                />
+              </div>
+              <div class="col-md-6 mb-2">
+                <input
+                  class="form-control"
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+         
+                />
+              </div>
+              <div class="col-sm-12 mb-2">
+                <input class="form-control" name="subject" type="text" placeholder="Subject" />
+              </div>
+              <div class="col-sm-12">
+                <textarea
+                  class="form-control mb-2"
+                  name="message"
+                  id="message"
+                  rows="5"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+
+              <div class="col-sm-12 mb-2">
+                <input
+                  class="
+                    btn btn-lg
+                    rounded-pill
+                    bg-primary
+                    text-secondary
+                    fw-semi-bold
+                    d-grid
+                  "
+                  type="submit"
+                  value="Send Message"
+                />
+              </div>
+            </div>
+          </form>
+
+          <div class="col-md-4 address-line">
+            <div class="row flex">
+              <div class="mb-3 d-flex">
+                <span class="me-2"
+                  ><i class="fa fa-phone" aria-hidden="true"></i
+                ></span>
+                <span class="fs-6 d-inline-block">
+                  <strong class="d-inline-block mb-1"> Call Me </strong> <br />
+                  +880-174267273 <br />
+                  +880-174267273
+                </span>
+              </div>
+              <div class="mb-3 d-flex">
+                <span class="me-2"
+                  ><i class="fa fa-envelope" aria-hidden="true"></i
+                ></span>
+                <span class="fs-6 d-inline-block">
+                  <strong class="d-inline-block mb-1"> E-Mail </strong> <br />
+                  msh43320@gmail.com <br />
+                  msh43320@gmail.com
+                </span>
+              </div>
+              <div class="mb-3 d-flex">
+                <span class="me-2"
+                  ><i class="fa fa-map-marker" aria-hidden="true"></i
+                ></span>
+                <span class="fs-6 d-inline-block">
+                  <strong class="d-inline-block mb-1"> Location </strong> <br />
+                  Jashore, Khulna <br />
+                  Bangladesh
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- CONTACT SECTION ENDS -->
+    </main>
 
     <!-- FOOOTER SECTION -->
 
     <footer class="pt-5 footer">
-        <div class="container">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12 mb-3">
+            <a
+              href="#"
+              class="
+                text-primary
+                px-3
+                py-2
+                fw-bolder
+                fs-1
+                mb-3
+              "
+            >
+              SHAGOR
+            </a>
+          </div>
 
-            <div class="row text-center">
-                <div class="col-12 mb-3">
-                    <a href="#" class=" text-primary border  border-primary px-3 py-2 fw-bolder fs-1 mb-3">
-                        S.
-                    </a>
-                </div>
+          <div class="col-md-8 m-auto mb-3">
+            <p class="lead">
+              Get complete secured and safe website for your business or
+              personal use
+            </p>
+          </div>
 
-                <div class="col-md-8 m-auto mb-3">
-                    <p class="lead">
-                        Get complete secured and safe website for your business or personal use 
-                    </p>
-                </div>
+          <ul
+            class="
+              d-flex
+              flex-sm-row
+              align-items-center
+              justify-content-center
+              social
+            "
+          >
+            <li class="d-inline-block">
+              <a
+                href="https://facebook.com/mdshagor.hossain1"
+                class="hoverSecondary d-flex mx-1 bg-primary p-3 rounded-1"
+                target="_blank"
+              >
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="d-inline-block">
+              <a
+                href="https://twitter.com/shagor276"
+                class="hoverSecondary d-flex mx-1 bg-primary p-3 rounded-1"
+                target="_blank"
+              >
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="d-inline-block">
+              <a
+                href="https://www.linkedin.com/in/md-shagor-hossain-b39119215/"
+                class="hoverSecondary d-flex mx-1 bg-primary p-3 rounded-1"
+                target="_blank"
+              >
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="d-inline-block">
+              <a
+                href="https://github.com/shagor-coder"
+                class="hoverSecondary d-flex mx-1 bg-primary p-3 rounded-1"
+                target="_blank"
+              >
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
 
-                <ul class="d-flex flex-sm-row align-items-center justify-content-center social">
-                    <li class="d-inline-block">
-                        <a href="https://facebook.com/mdshagor.hossain1" class="hoverSecondary d-flex mx-1 bg-primary p-3 rounded-1" target="_blank">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li class="d-inline-block">
-                        <a href="https://twitter.com/shagor276" class="hoverSecondary d-flex mx-1 bg-primary p-3 rounded-1" target="_blank">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li class="d-inline-block">
-                        <a href="https://www.linkedin.com/in/md-shagor-hossain-b39119215/" class="hoverSecondary d-flex mx-1 bg-primary p-3 rounded-1" target="_blank">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li class="d-inline-block">
-                        <a href="https://github.com/shagor-coder" class="hoverSecondary d-flex mx-1 bg-primary p-3 rounded-1" target="_blank">
-                            <i class="fa fa-github" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                </ul>
-
-                <p class="lead">
-                    All Rights Reserved &copy; SHAGOR
-                </p>
-            </div>
-
+          <p class="lead">All Rights Reserved &copy; SHAGOR</p>
         </div>
+      </div>
     </footer>
 
     <!-- FOOOTER SECTION -->
-    
 
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <!-- Bootstrap Js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.bundle.min.js" integrity="sha512-pax4MlgXjHEPfCwcJLQhigY7+N8rt6bVvWLFyUMuxShv170X53TRzGPmPkZmGBhk+jikR8WBM4yl7A9WMHHqvg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.bundle.min.js"
+      integrity="sha512-pax4MlgXjHEPfCwcJLQhigY7+N8rt6bVvWLFyUMuxShv170X53TRzGPmPkZmGBhk+jikR8WBM4yl7A9WMHHqvg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- jQuery JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Email JS -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
     <!-- Custom Js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="/dist/script.js"></script>
-</body>
+  </body>
 </html>

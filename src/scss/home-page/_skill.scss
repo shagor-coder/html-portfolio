@@ -1,4 +1,5 @@
 .skill {
+  background: #0f0e0f;
   .after {
     position: relative;
 
@@ -11,9 +12,10 @@
   }
 
   .progress {
-    background: none !important;
+    background: $secondary !important;
 
     .progress-bar {
+      transition: all 2s ease-in-out !important;
       background: $primary;
     }
   }

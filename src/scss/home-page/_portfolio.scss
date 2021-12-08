@@ -3,5 +3,44 @@
   .portfolio-grid {
     @include portfolioGrid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)) !important;
+
+    a {
+      box-shadow: 0 5px 10px rgba(255, 255, 255, 0.25);
+      transition: all 1s ease-in-out;
+      min-height: 350px;
+      background-size: cover;
+      background-color: transparent;
+      background-position: top center;
+      border-radius: 5px;
+
+      &:hover {
+        opacity: 0.9;
+        background-position: bottom center;
+      }
+    }
+    a:nth-child(1) {
+      background-image: url('/src/img/manage.png');
+    }
+    a:nth-child(2) {
+      background-image: url('/src/img/task-app.png');
+    }
+    a:nth-child(3) {
+      background-image: url('/src/img/bookmark.png');
+    }
+    a:nth-child(4) {
+      background-image: url('/src/img/easy-bank.png');
+    }
+    a:nth-child(5) {
+      background-image: url('/src/img/fylo.png');
+    }
+    a:nth-child(6) {
+      background-image: url('/src/img/glozzom.png');
+    }
+    a:nth-child(7) {
+      background-image: url('/src/img/loop-studios.png');
+    }
+    a:nth-child(8) {
+      background-image: url('/src/img/huddle.png');
+    }
   }
 }
